@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patricio Mora | Ciberseguridad Junior</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #020617, #1e293b);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      color: #38bdf8;
+    }
+
+    header h2 {
+      font-size: 1.4rem;
+      font-weight: normal;
+      margin-bottom: 20px;
+      color: #cbd5e1;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+      color: #94a3b8;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 8px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #38bdf8;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 14px;
+      border: 1px solid #334155;
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+      color: #f8fafc;
+    }
+
+    .card p, li {
+      color: #cbd5e1;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      color: #64748b;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #0f172a;
+      border: 1px solid #334155;
+      padding: 6px 10px;
+      border-radius: 20px;
+      margin: 5px;
+      color: #cbd5e1;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Patricio Mora</h1>
+      <h2>Estudiante de Informática | En camino a Ciberseguridad Junior / Pentesting</h2>
+      <p>
+        Estoy construyendo mi camino en ciberseguridad ofensiva, aprendiendo redes, Linux, HTTP, Burp Suite, ffuf, curl, Python y laboratorios prácticos como Hack The Box. Mi objetivo es entrar al mundo laboral TI y crecer como profesional de ciberseguridad.
+      </p>
+      <a class="btn" href="#proyectos">Ver proyectos</a>
+      <a class="btn" href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <section id="sobre-mi">
+    <h3>Sobre mí</h3>
+    <p>
+      Soy estudiante de Ingeniería en Informática y estoy enfocado en desarrollar habilidades reales para trabajar en ciberseguridad. Me interesa especialmente el pentesting web, la enumeración, el análisis de vulnerabilidades y la automatización con Python.
+    </p>
+  </section>
+
+  <section id="habilidades">
+    <h3>Habilidades en progreso</h3>
+    <div>
+      <span class="tag">Linux</span>
+      <span class="tag">Kali Linux</span>
+      <span class="tag">HTTP</span>
+      <span class="tag">Headers</span>
+      <span class="tag">curl</span>
+      <span class="tag">ffuf</span>
+      <span class="tag">Burp Suite</span>
+      <span class="tag">Nmap</span>
+      <span class="tag">Python</span>
+      <span class="tag">MySQL</span>
+      <span class="tag">Git</span>
+      <span class="tag">GitHub</span>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h3>Proyectos</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>Sistema de ventas en Python</h4>
+        <p>Sistema básico para negocios pequeños con productos, carrito, ventas y descuento de stock usando Python y MySQL.</p>
+      </div>
+
+      <div class="card">
+        <h4>Laboratorios de ciberseguridad</h4>
+        <p>Documentación de aprendizaje en máquinas de práctica, enfocada en enumeración, HTTP, fuzzing, análisis de respuestas y metodología.</p>
+      </div>
+
+      <div class="card">
+        <h4>Scripts de automatización</h4>
+        <p>Pequeños scripts en Python para practicar lógica, manejo de archivos, requests HTTP y automatización de tareas técnicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ruta">
+    <h3>Ruta actual</h3>
+    <div class="card">
+      <ul>
+        <li>Dominar Linux básico y terminal.</li>
+        <li>Comprender HTTP, cookies, headers, métodos y status codes.</li>
+        <li>Practicar curl, ffuf, Burp Suite y Nmap.</li>
+        <li>Crear writeups personales de laboratorios.</li>
+        <li>Subir proyectos reales a GitHub.</li>
+        <li>Preparar perfil para postular a cargos TI/ciberseguridad junior.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h3>Contacto</h3>
+    <p>
+      GitHub: <a style="color:#38bdf8" href="https://github.com/TU-USUARIO" target="_blank">github.com/TU-USUARIO</a>
+    </p>
+    <p>
+      LinkedIn: <a style="color:#38bdf8" href="https://linkedin.com/in/TU-USUARIO" target="_blank">linkedin.com/in/TU-USUARIO</a>
+    </p>
+    <p>
+      Email: <span style="color:#38bdf8">tu-correo@email.com</span>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Patricio Mora - Portafolio en construcción constante</p>
+  </footer>
+</body>
+</html>
